@@ -12,8 +12,8 @@ disp(['The average of ' num2str(num1) ' and ' num2str(num2) ' is ' num2str(avera
 
 % Plot the two numbers
 figure;
-bar([num1, num2]);
+bar([num1, num2],'b');
 title('Numbers Plot');
 xlabel('Numbers');
 ylabel('Values');
-ylim([0,10]);
+ylim(0,10]);
